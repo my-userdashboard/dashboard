@@ -30,7 +30,7 @@
   },
   "scripts": {
     "debug": "node main.js --debug-brk=5858",
-    "start": "node main.js",
+    "start": "node init && node main.js",
     "test": "act -j test-fs-storage"
   },
   "version": "1.0.392"
